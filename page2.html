@@ -1,0 +1,76 @@
+﻿
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+     <style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.screen {
+  background-color: lightblue;
+  float: left;
+  width: 100%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+.a{
+    color :black;
+}
+.table {
+  float: left;
+  width: 40%;
+}
+#leftSide{
+  color : darkseagreen;
+}
+</style>
+</head>
+<body style="font-family:Verdana;">
+<a href="HomePage.html">Home Page</a>
+    <div style="background-color:#f1f1f1;padding:15px;">
+        <h1>Advantages</h1>
+    </div>
+    <div style="overflow:auto"> 
+        <div class="screen">
+            <a>There are a number of advantages to the database approach.Some of the advantages of a database system are summarised below.</a>
+        </div>
+        <div>
+            <table border="1" class="table">
+                <tr>
+                    <td id="leftSide"><b>Data management</b></td>
+                    <td><a class="a">	A DBMS provides a mechanism for easier management of the data held by an organisation.</a></td>
+                </tr>
+                <tr>
+                    <td id="leftSide"><b>Data independence</b></td>
+                    <td><a class="a">	In a database system the data is held independently of the application programs that use it.  Changes to the data or the way it is stored will not necessarily affect the programs that use the data.</a></td>
+                </tr>
+                <tr>
+                    <td id="leftSide"><b>Data consistency</b></td>
+                    <td><a class="a">	A database system is designed to reduce redundancy.  Items of data are ideally only stored in one location.  When updates are made to data, changes should only need to be made to this one location.  This greatly improves the consistency of the results of queries made on the database. </a></td>
+                </tr>
+                <tr>
+                    <td id="leftSide"><b>Data sharing</b></td>
+                    <td><a class="a">The collection of data in a central data repository and managed by a DBMS allows the data to be shared by several users and applications.</a></td>
+                </tr>
+                <tr>
+                    <td id="leftSide"><b>Increased productivity</b></td>
+                    <td><a class="a">File structures are already determined in the database structure.  New application programs can then be developed that use these structures.  This results in shorter development times.</a></td>
+                </tr>
+                <tr>
+                    <td id="leftSide"><b>Reduced maintenance</b></td>
+                    <td><a class="a">A number of tools for maintaining the data are already built in to most DBMS.  Tools may include report generators, query languages, form generators, code checkers, data dictionaries and maintenance logs.</a></td>
+                </tr>
+            </table>
+            <div><img src="DBMS.jpg" style="width:50%" /></div>
+        </div>
+    </div>
+</body>
+</html>
